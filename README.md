@@ -1,16 +1,65 @@
-# React + Vite
+# React Todo App 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern Todo application built using **React + Vite**.
+This project helps users manage daily tasks efficiently with a clean dark UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 https://react-todo-app-eta-lake.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ➕ Add new tasks
+* ❌ Delete tasks
+* ✔️ Mark tasks as completed
+* 🎲 Random task generator
+* 🌙 Dark theme UI
+* ⚡ Fast and responsive design
+
+---
+
+## 🛠️ Tech Stack
+
+* React.js
+* JavaScript (ES6+)
+* CSS3
+* Vite
+* UUID
+* Faker.js
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Chanakya-9/react-todo-app.git
+cd react-todo-app
+npm install
+npm run dev
+```
+
+---
+
+## 📸 Preview
+
+<img width="1152" height="633" alt="image" src="https://github.com/user-attachments/assets/9039b7cb-cdd4-415c-93a9-209382447568" />
+
+
+---
+
+## 🔥 Future Improvements
+
+* LocalStorage support (save tasks)
+* Edit task feature
+* Drag & drop sorting
+* Better animations
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by Chanakya
