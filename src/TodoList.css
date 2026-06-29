@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #121212;
+    color: #f5f5f5;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 30px;
+}
+
+
+h4 {
+    margin-top: 30px;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+input:not([type="checkbox"]) {
+    width: 300px;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 8px;
+    outline: none;
+    background: #1e1e1e;
+    color: white;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+input:not([type="checkbox"]):focus {
+    border-color: #00c853;
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    background: #00c853;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00a844;
+}
+
+hr {
+    width: 60%;
+    border: 1px solid #333;
+    margin: 30px auto;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 550px;
+    margin: 20px auto;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1f1f1f;
+    margin: 12px 0;
+    padding: 14px 18px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+li:hover {
+    background: #292929;
+    transform: translateY(-2px);
+}
+
+li span {
+    flex: 1;
+    text-align: left;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+li button {
+    background: #e53935;
+}
+
+li button:hover {
+    background: #c62828;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #00c853;
+    cursor: pointer;
+}
+
+span {
+    transition: 0.3s;
+}
+
+span[style*="line-through"] {
+    color: #888;
+}
+
+
+
+
+.delete-btn {
+    background: #ff4d4d;
+    color: white;
+}
+
+.delete-btn:hover {
+    background: #e53935;
+    transform: scale(1.1);
+}
+
+.dice-btn {
+    background: #00c853;
+    color: white;
+    margin: 0 25px;
+}
+
+.dice-btn:hover {
+    background: #666;
+    transform: rotate(180deg) scale(1.1);
+}
