@@ -8,6 +8,7 @@ This project helps users manage daily tasks efficiently with a clean dark UI.
 ## 🚀 Live Demo
 
 🔗 https://react-todo-app-eta-lake.vercel.app/
+🔗 https://react-todo-13iii8cr9-chanakya9.vercel.app/
 
 ---
 
@@ -46,7 +47,8 @@ npm run dev
 
 ## 📸 Preview
 
-<img width="1152" height="633" alt="image" src="https://github.com/user-attachments/assets/9039b7cb-cdd4-415c-93a9-209382447568" />
+<img width="1152" height="631" alt="image" src="https://github.com/user-attachments/assets/75dd525b-cf65-4e20-bbe2-a384755b63bf" />
+
 
 
 ---
