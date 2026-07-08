@@ -20,7 +20,8 @@ This project helps users manage daily tasks efficiently with a clean dark UI.
 * 🎲 Random task generator
 * 🌙 Dark theme UI
 * ⚡ Fast and responsive design
-
+* 💾 LocalStorage support (save tasks)
+  
 ---
 
 ## 🛠️ Tech Stack
@@ -55,7 +56,6 @@ npm run dev
 
 ## 🔥 Future Improvements
 
-* LocalStorage support (save tasks)
 * Edit task feature
 * Drag & drop sorting
 * Better animations
