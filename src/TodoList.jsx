@@ -1,17 +1,26 @@
-import { useState } from "react";
+import { useState, useEffect } from "react"; // 1. Added useEffect
 import { v4 as uuidv4 } from "uuid";
 import { faker } from "@faker-js/faker";
 import "./TodoList.css";
 import { FaTrashAlt, FaDice } from "react-icons/fa";
 
 export default function TodoList() {
-    const [todos, setTodos] = useState([
-        { task: "Buy groceries", id: uuidv4(), isDone: false },
-        { task: "Finish homework", id: uuidv4(), isDone: false },
-        { task: "Call a friend", id: uuidv4(), isDone: false },
-        { task: "Clean the room", id: uuidv4(), isDone: false },
-        { task: "Drink 2 liters of water", id: uuidv4(), isDone: false },
-    ]);
+    // 2. Initialize state by reading from localStorage
+    const [todos, setTodos] = useState(() => {
+        const savedTodos = localStorage.getItem("my-todo-list");
+        return savedTodos ? JSON.parse(savedTodos) : [
+            { task: "Buy groceries", id: uuidv4(), isDone: false },
+            { task: "Finish homework", id: uuidv4(), isDone: false },
+            { task: "Call a friend", id: uuidv4(), isDone: false },
+            { task: "Clean the room", id: uuidv4(), isDone: false },
+            { task: "Drink 2 liters of water", id: uuidv4(), isDone: false },
+        ];
+    });
+
+    // 3. Save to localStorage whenever 'todos' changes
+    useEffect(() => {
+        localStorage.setItem("my-todo-list", JSON.stringify(todos));
+    }, [todos]);
 
     const [newTask, setNewTask] = useState("");
 
